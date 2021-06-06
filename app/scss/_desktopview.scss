@@ -1,0 +1,44 @@
+
+@media only screen and (min-width: 600px) {
+    .container{
+        display: flex;
+        padding-left: 3.5rem;
+    }
+
+    .hero{
+        &__mockup{
+            height: 25rem;
+        }
+    }
+
+    .content{
+        &__title{
+            text-align: left;
+            font-size: 2rem;
+            padding-bottom: 1rem;
+        }
+
+        &__title_2nd_row{
+            text-align: left;
+            font-size: 2rem;
+        }
+
+        &__info{
+            text-align: left;
+        }
+
+        &__button{
+           text-align: center;
+           padding-left: 1.8rem;
+           padding-right: 1.8rem;
+           max-width: 6.18rem;
+         
+        }
+    }
+
+    .icons{
+        text-align: right;
+        padding-right: 2.6rem;
+    }
+
+}
