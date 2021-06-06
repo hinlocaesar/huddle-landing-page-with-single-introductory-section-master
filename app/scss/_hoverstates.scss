@@ -1,0 +1,20 @@
+
+    .content__button{
+        &:hover{
+            background-color:$SoftMagenta ;
+            color:white;
+        }
+
+    }
+
+
+.icons{
+
+    ion-icon:hover {
+        color:$SoftMagenta;
+        border: $SoftMagenta 0.10rem solid;
+    }
+
+}
+
+   

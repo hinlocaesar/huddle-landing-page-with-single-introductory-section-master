@@ -116,10 +116,10 @@ table {
 .icons {
   text-align: center;
   padding-bottom: 1.9rem;
+  color: white;
 }
 
 .icons ion-icon {
-  color: white;
   font-size: 1.5rem;
   border: white 0.10rem solid;
   padding: 0.35rem;
@@ -135,6 +135,9 @@ html {
 }
 
 @media only screen and (min-width: 600px) {
+  html {
+    background-image: url(/images/bg-desktop.svg);
+  }
   .container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -166,5 +169,15 @@ html {
     text-align: right;
     padding-right: 2.6rem;
   }
+}
+
+.content__button:hover {
+  background-color: #e882e8;
+  color: white;
+}
+
+.icons ion-icon:hover {
+  color: #e882e8;
+  border: #e882e8 0.1rem solid;
 }
 /*# sourceMappingURL=root.css.map */
