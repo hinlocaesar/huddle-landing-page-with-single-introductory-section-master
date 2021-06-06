@@ -1,0 +1,9 @@
+.hero{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4.1rem;
+
+        &__mockup{
+            height: 13rem;
+        }
+}
