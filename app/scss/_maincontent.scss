@@ -18,6 +18,7 @@
         font-size:1rem;
         line-height: 1.5rem;
         padding-bottom: 2rem;
+   
     }
 
     &__button{
@@ -25,7 +26,9 @@
         color:$Violet;
         padding-top:1rem;
         padding-bottom:1rem;
-        border-radius:30px;
+        border-radius:1.8rem;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        margin-bottom: 4.06rem;
     }
 
  
